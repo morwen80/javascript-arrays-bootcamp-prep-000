@@ -7,16 +7,14 @@ return firstArray;
 }
 
   // const firstArray = [1];
-  //
-  // const secondArray = ["foo", ...firstArray]
-  //
-  //   return firstArray;
-  //     }
+  //const secondArray = ["foo", ...firstArray]
+  //return firstArray;
+  // }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
 var newArray = [1]
 newArray.unshift(element);
-return newArray;
+// return newArray;
     }
 
 function addElementToEndOfArray(array, element) {
@@ -25,8 +23,8 @@ function addElementToEndOfArray(array, element) {
 return firstArray;
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-var newArray = [1]
-newArray.push(element);
-return newArray;
-    }
+// function destructivelyAddElementToEndOfArray(array, element) {
+// var newArray = [1]
+// newArray.push(element);
+// return newArray;
+//     }
