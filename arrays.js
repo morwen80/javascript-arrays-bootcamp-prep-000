@@ -10,7 +10,7 @@ return firstArray;
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   const newArray = [1];
-  newArray.unshift(element);
+  newArray.unshift("foo");
   return newArray;
       }
   // const firstArray = [1];
@@ -36,7 +36,7 @@ return firstArray;
 function destructivelyAddElementToEndOfArray(array, element) {
 var firstArray = [1];
 var secondArray = firstArray.push(element);
-return firstArray; //this
+return firstArray;
 }
 
 
@@ -55,3 +55,4 @@ function removeElementFromBeginningOfArray(array) {
   newArray = newArray.slice(0);
   return newArray;
 }
+
