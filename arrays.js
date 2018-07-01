@@ -14,7 +14,7 @@ return firstArray;
 function destructivelyAddElementToBeginningOfArray(array, element) {
 var newArray = [1]
 newArray.unshift(element);
-// return newArray;
+return newArray;
     }
 
 function addElementToEndOfArray(array, element) {
