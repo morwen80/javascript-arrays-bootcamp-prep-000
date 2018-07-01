@@ -55,10 +55,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   // var secondArray = firstArray.shift();
   // return firstArray;
 
-//CORRECT
+//THIS
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1);
-  return array
+  return array.slice(1);
+
   // const newArray = [1, 2, 3];
   // newArray = newArray.slice(0);
   // return newArray;
