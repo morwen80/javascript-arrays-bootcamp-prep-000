@@ -55,7 +55,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   // var secondArray = firstArray.shift();
   // return firstArray;
 
-//THIS
+//CORRECT
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 
@@ -72,6 +72,6 @@ function destructivelyRemoveElementFromEndOfArray(array){
 
 //THIS
 function removeElementFromEndOfArray(array){
-  array.slice(0, array.length - 1);
-  return array
+  return array.slice(0, array.length - 1);
+  
 }
