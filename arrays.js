@@ -22,5 +22,5 @@ return newArray;
 function addElementToEndOfArray(array, element) {
   var firstArray = [1]
   firstArray = [...firstArray, element]
-  return firstArray;
-    }
+return firstArray;
+}
