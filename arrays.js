@@ -47,7 +47,7 @@ function accessElementInArray(array, index) {
 
 //THIS
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.pop()
+  array.slice(1)
   return array
   }
   // var firstArray = [1, 2, 3];
