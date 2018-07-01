@@ -34,7 +34,7 @@ return firstArray;
 }
 
 
-//THIS
+//CORRECT
 function destructivelyAddElementToEndOfArray(array, element) {
    array.push(element)
   return array
@@ -45,10 +45,14 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
+//THIS 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  var firstArray = [1, 2, 3];
-  var secondArray = firstArray.shift();
-  return firstArray;
+  array.pop(element)
+  return array
+  }
+  // var firstArray = [1, 2, 3];
+  // var secondArray = firstArray.shift();
+  // return firstArray;
 }
 
 function removeElementFromBeginningOfArray(array) {
