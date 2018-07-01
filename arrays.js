@@ -9,20 +9,22 @@ return firstArray;
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  const newArray = [1];
-  newArray.unshift(element);
-  return newArray;
+ array.unshift(element);
+ return array
+}  //  THIIIIIIS
+
+
+  // const newArray = [1];
+  // newArray.unshift(element);
+  // return newArray;
       }
+
   // const firstArray = [1];
   // const secondArray = [element, ...firstArray]
   // return firstArray;
   // }
 
 
-// var firstArray = [1];
-// firstArray = [element, ...firstArray]
-// return firstArray;
-// }
 
 
 
