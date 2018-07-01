@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(array, element) {
   const firstArray = [1];
 
   const secondArray = [element, ...firstArray]
-    
+
     return firstArray;
       }
 
