@@ -24,3 +24,9 @@ function addElementToEndOfArray(array, element) {
   firstArray = [...firstArray, element]
 return firstArray;
 }
+
+unction destructivelyAddElementToEndOfArray(array, element) {
+var newArray = [1]
+newArray.push(element);
+return newArray;
+    }
