@@ -9,7 +9,7 @@ return firstArray;
 }
 
 
-// THIS
+// CORRECT
 function destructivelyAddElementToBeginningOfArray(array, element) {
  array.unshift(element)
 return array
@@ -33,11 +33,12 @@ function addElementToEndOfArray(array, element) {
 return firstArray;
 }
 
+
+//THIS
 function destructivelyAddElementToEndOfArray(array, element) {
-var firstArray = [1];
-var secondArray = firstArray.push(element);
-return firstArray;
-}
+   array.push(element)
+  return array
+  }
 
 
 function accessElementInArray(array, index) {
