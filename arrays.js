@@ -9,6 +9,10 @@ return firstArray;
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
+  const newArray = [1];
+  newArray.unshift(element);
+  return newArray;
+      }
   // const firstArray = [1];
   // const secondArray = [element, ...firstArray]
   // return firstArray;
@@ -21,10 +25,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 // }
 
 
-const newArray = [1];
-newArray.unshift(element);
-return newArray;
-    }
+
 
 function addElementToEndOfArray(array, element) {
   var firstArray = [1]
@@ -41,4 +42,9 @@ return firstArray;
 
 function accessElementInArray(array, index) {
   return array[index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  destructivelyRemoveElementFromBeginningOfArray.shift();
+  return destructivelyRemoveElementFromBeginningOfArray;
 }
