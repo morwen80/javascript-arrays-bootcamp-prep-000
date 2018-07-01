@@ -12,7 +12,7 @@ return firstArray;
   // }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-var newArray = [1]
+const newArray = [1]
 newArray.unshift(element);
 return newArray;
     }
