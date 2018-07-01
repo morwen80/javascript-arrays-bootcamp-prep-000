@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, element) {
 
   const secondArray = [element, ...firstArray]
     
-    return newArray;
+    return firstArray;
       }
 
 // [element, ...chocolateBars];
