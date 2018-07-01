@@ -45,7 +45,7 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-//THIS 
+//THIS
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.pop(element)
   return array
@@ -53,7 +53,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   // var firstArray = [1, 2, 3];
   // var secondArray = firstArray.shift();
   // return firstArray;
-}
+
 
 function removeElementFromBeginningOfArray(array) {
   const newArray = [1, 2, 3];
