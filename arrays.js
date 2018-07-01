@@ -15,16 +15,16 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   // }
 
 
-var firstArray = [1];
-firstArray = [element, ...firstArray]
-return firstArray;
-}
+// var firstArray = [1];
+// firstArray = [element, ...firstArray]
+// return firstArray;
+// }
 
 
-// var newArray = [1];
-// newArray.unshift(element);
-// return newArray;
-//     }
+const newArray = [1];
+newArray.unshift(element);
+return newArray;
+    }
 
 function addElementToEndOfArray(array, element) {
   var firstArray = [1]
