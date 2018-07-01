@@ -6,16 +6,21 @@ firstArray = [element, ...firstArray]
 return firstArray;
 }
 
-  // const firstArray = [1];
-  //const secondArray = ["foo", ...firstArray]
-  //return firstArray;
-  // }
+
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-var firstArray = [1];
-firstArray = [element, ...firstArray]
-return firstArray;
-}
+  const firstArray = [1];
+  const secondArray = [element, ...firstArray]
+  return firstArray;
+  }
+  
+   
+// var firstArray = [1];
+// firstArray = [element, ...firstArray]
+// return firstArray;
+// }
+
+
 // var newArray = [1];
 // newArray.unshift(element);
 // return newArray;
