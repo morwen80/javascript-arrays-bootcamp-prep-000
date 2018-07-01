@@ -19,7 +19,7 @@ newArray.unshift(element);
 return newArray;
     }
 
-function addElementToBeginningOfArray(array, element) {
+function addElementToEndOfArray(array, element) {
   var firstArray = [1]
   firstArray = [...firstArray, element]
   return firstArray;
