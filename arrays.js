@@ -13,8 +13,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   const secondArray = [element, ...firstArray]
   return firstArray;
   }
-  
-   
+
+
 // var firstArray = [1];
 // firstArray = [element, ...firstArray]
 // return firstArray;
